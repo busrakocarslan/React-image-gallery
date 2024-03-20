@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/busrakocarslan/React-image-gallery.git/static/css/main.b76d76ea.css",
+    "main.js": "/busrakocarslan/React-image-gallery.git/static/js/main.72c7a1b6.js",
+    "index.html": "/busrakocarslan/React-image-gallery.git/index.html",
+    "main.b76d76ea.css.map": "/busrakocarslan/React-image-gallery.git/static/css/main.b76d76ea.css.map",
+    "main.72c7a1b6.js.map": "/busrakocarslan/React-image-gallery.git/static/js/main.72c7a1b6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b76d76ea.css",
+    "static/js/main.72c7a1b6.js"
+  ]
+}
