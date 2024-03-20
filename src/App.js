@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+// import images from "./helper/data"
+import React from "react";
+import Header from "./pages/header";
+import { images } from "./helper/data";
+
+// const {fotografçı,kaynak}=images;
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <div className="imgDiv">
+        {images.map((image, index) => (
+          <div key={index} className="imgContainer">            
+              <img
+                
+                src={image.kaynak.büyük}
+                alt={image.fotoğrafçı}
+              />
+              <p>{image.fotoğrafçı}</p>            
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
